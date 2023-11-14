@@ -1,0 +1,55 @@
+/* Home.css */
+
+.movies-container {
+  padding: 20px;
+}
+
+h2 {
+  color: #0c0a69;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+li {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 10px;
+  font-size: 16px;
+  color: #0c0a69;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.details-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0c0a69;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #092042;
+}

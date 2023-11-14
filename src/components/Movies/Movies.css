@@ -1,0 +1,76 @@
+/* Movies.css */
+
+.movies-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movies-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #0c0a69;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a1857;
+  }
+  
+  .movies-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-item {
+    width: calc(25% - 20px);
+    margin: 0 10px 20px 0;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: 300px; /* Ustawiona stała wysokość */
+    object-fit: cover; /* Dopasowanie obrazu do obszaru */
+    border-radius: 8px;
+  }
+  
+  .details-button {
+    display: block;
+    background-color: #0c0a69;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  
+  .details-button:hover {
+    background-color: #1a1857;
+  }
+  

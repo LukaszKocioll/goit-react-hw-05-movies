@@ -1,10 +1,25 @@
+// index.js
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const root = document.getElementById('root');
+
+const render = (Component) => {
+  ReactDOM.createRoot(root).render(
+    <React.StrictMode>
+      <Component />
+    </React.StrictMode>
+  );
+};
+
+// Inicjalne renderowanie
+render(App);
+
+// Hot module replacement
+if (module.hot) {
+  module.hot.accept('./components/App', () => {
+    const NextApp = require('./components/App').default;
+    render(NextApp);
+  });
+}

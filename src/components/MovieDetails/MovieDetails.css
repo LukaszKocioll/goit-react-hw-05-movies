@@ -1,0 +1,79 @@
+/* MovieDetails.css */
+
+.movie-details-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .poster-container {
+    width: 50%;
+  }
+  
+  .poster-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info-container {
+    width: 50%;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  .buttons-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .details-button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #0c0a69;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .details-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #0c0a69;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .cast-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cast-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .actor-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actor-image {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .actor-text {
+    color: #0c0a69;
+  }
+  
+  /* Add any additional styles as needed */
+  
+  
