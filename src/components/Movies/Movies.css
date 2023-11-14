@@ -1,5 +1,3 @@
-/* Movies.css */
-
 .movies-container {
     max-width: 800px;
     margin: 0 auto;
@@ -54,8 +52,8 @@
   
   .movie-poster {
     width: 100%;
-    height: 300px; /* Ustawiona stała wysokość */
-    object-fit: cover; /* Dopasowanie obrazu do obszaru */
+    height: 300px; 
+    object-fit: cover; 
     border-radius: 8px;
   }
   
